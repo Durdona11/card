@@ -23,23 +23,29 @@ body.appendChild(card);
 
 let badge = document.createElement("div");
 badge.style.background = "linear-gradient(180deg, #222933 0%, #171E28 100%)";
-badge.style.width="400px";
-badge.style.height="400px";
+badge.style.width="380px";
+badge.style.height="380px";
 badge.style.fontFamily="Inter";
 badge.style.borderRadius = "30px";
-badge.style.padding="38px";
+badge.style.padding="31px";
 card.appendChild(badge);
 
 let cards=document.createElement("div");
 cards.style.width="50px";
 cards.style.height="50px";
 cards.style.borderRadius="50%";
-cards.style.background="url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Rank_Star.svg/2048px-Rank_Star.svg.png)";
-
 cards.style.backgroundColor="#262F38";
-cards.style.backgroundSize="cover";
-cards.style.backgroundPosition="center";
+// cards.style.backgroundSize="cover";
+// cards.style.backgroundPosition="center";
+// ellipse.style.display = "flex";
+cards.style.alignItems = "center";
+cards.style.justifyContent = "center";
 badge.appendChild(cards);
+
+let ellipse_img = document.createElement("img");
+ellipse_img.src = `./images/Vector (1).png`;
+ellipse_img.style.padding="16px";
+cards.appendChild(ellipse_img);
 
 let h1_word=document.createElement("div");
 h1_word.textContent="How did we do?";
@@ -64,7 +70,7 @@ badge.appendChild(p_word);
 
 let bor_card=document.createElement("div");
 bor_card.style.display="flex";
-bor_card.style.gap="28px";
+bor_card.style.gap="21px";
 bor_card.style.marginTop="27px";
 // bor_card.style.color="#707883";
 // bor_card.style.fontSize="18px";
@@ -138,7 +144,7 @@ subwith.style.marginTop="45px";
 badge.appendChild(subwith);
 
 let sumbtn=document.createElement("button");
-sumbtn.style.width="380px";
+sumbtn.style.width="342px";
 sumbtn.style.height="45px";
 sumbtn.textContent="SUBMIT";
 sumbtn.style.background="#FC7613";
