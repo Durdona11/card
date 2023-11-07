@@ -89,6 +89,16 @@ bor1.style.background="#262F38";
 bor1.style.textAlign="center";
 bor1.style.color="#707883";
 bor1.style.border="none";
+bor1.addEventListener("mouseenter",(event)=>{
+      console.log(event.clientX, event.clientY);
+      bor1.style.background="#FC7613";
+      bor1.style.color="white";
+});
+bor1.addEventListener("mouseout",(event)=>{
+      console.log(event.clientX, event.clientY);
+      bor1.style.background="white";
+      bor1.style.color="#707883";
+  });
 bor_card.appendChild(bor1);
 
 let bor2=document.createElement("button");
@@ -100,6 +110,16 @@ bor2.textContent="2";
 bor2.style.textAlign="center";
 bor2.style.color="#707883";
 bor2.style.border="none";
+bor2.addEventListener("mouseenter",(event)=>{
+  console.log(event.clientX, event.clientY);
+  bor2.style.background="#FC7613";
+  bor2.style.color="white";
+});
+bor2.addEventListener("mouseout",(event)=>{
+  console.log(event.clientX, event.clientY);
+  bor2.style.background="white";
+  bor2.style.color="#707883";
+});
 bor_card.appendChild(bor2);
 
 let bor3=document.createElement("button");
@@ -113,6 +133,16 @@ bor3.style.color="#707883";
 bor3.style.border="none";
 // let bor3=document.createElement("button:hover");
 // bor3.style.color="pink";
+bor3.addEventListener("mouseenter",(event)=>{
+  console.log(event.clientX, event.clientY);
+  bor3.style.background="#FC7613";
+  bor3.style.color="white";
+});
+bor3.addEventListener("mouseout",(event)=>{
+  console.log(event.clientX, event.clientY);
+  bor3.style.background="white";
+  bor3.style.color="#707883";
+});
 bor_card.appendChild(bor3);
 
 let bor4=document.createElement("button");
@@ -124,6 +154,16 @@ bor4.textContent="4";
 bor4.style.textAlign="center";
 bor4.style.color="#707883";
 bor4.style.border="none";
+bor4.addEventListener("mouseenter",(event)=>{
+  console.log(event.clientX, event.clientY);
+  bor4.style.background="#FC7613";
+  bor4.style.color="white";
+});
+bor4.addEventListener("mouseout",(event)=>{
+  console.log(event.clientX, event.clientY);
+  bor4.style.background="white";
+  bor4.style.color="#707883";
+});
 bor_card.appendChild(bor4);
 
 let bor5=document.createElement("button");
@@ -135,6 +175,16 @@ bor5.style.background="#262F38";
 bor5.textContent="5";
 bor5.style.textAlign="center";
 bor5.style.color="#707883";
+bor5.addEventListener("mouseenter",(event)=>{
+  console.log(event.clientX, event.clientY);
+  bor5.style.background="#FC7613";
+  bor5.style.color="white";
+});
+bor5.addEventListener("mouseout",(event)=>{
+  console.log(event.clientX, event.clientY);
+  bor5.style.background="white";
+  bor5.style.color="#707883";
+});
 bor_card.appendChild(bor5);
 
 
@@ -155,6 +205,16 @@ sumbtn.style.fontSize="15px";
 sumbtn.style.fontWeight="700";
 sumbtn.style.letterSpacing="1.725px";
 sumbtn.style.lineHeight="169%";
+sumbtn.addEventListener("mouseenter",(event)=>{
+  console.log(event.clientX, event.clientY);
+  sumbtn.style.background="white";
+  sumbtn.style.color=" #FC7613";
+});
+sumbtn.addEventListener("mouseout",(event)=>{
+  console.log(event.clientX, event.clientY);
+  sumbtn.style.background="white";
+  sumbtn.style.color="#FC7613";
+});
 subwith.appendChild(sumbtn);
 
 
